@@ -1,0 +1,88 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Helper functions
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isUser(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    function getUserRole() {
+      return get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role;
+    }
+
+    function isStaff() {
+      return isAuthenticated() && (getUserRole() == 'STAFF' || getUserRole() == 'ADMIN');
+    }
+
+    function isAdmin() {
+      return isAuthenticated() && getUserRole() == 'ADMIN';
+    }
+
+    // Users Collection
+    match /users/{userId} {
+      allow read: if isAuthenticated();
+      allow write: if isUser(userId) || isAdmin();
+    }
+
+    // Farmers Profiles
+    match /farmers/{farmerId} {
+      allow read: if isAuthenticated();
+      allow create, update: if isUser(farmerId) || isStaff();
+      allow delete: if isAdmin();
+    }
+
+    // Procurement Centres
+    match /procurement_centers/{centerId} {
+      allow read: if true; // Public directory for slot booking
+      allow write: if isAdmin();
+    }
+
+    // Crops & MSP Reference
+    match /crops/{cropId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // Bookings Collection
+    match /bookings/{bookingId} {
+      allow read: if isAuthenticated() && (resource.data.farmerId == request.auth.uid || isStaff());
+      allow create: if isAuthenticated();
+      allow update: if isStaff() || (isAuthenticated() && resource.data.farmerId == request.auth.uid && request.resource.data.status == 'CANCELLED');
+      allow delete: if isAdmin();
+    }
+
+    // Live Queue Collection (Server-Authoritative)
+    match /queues/{queueId} {
+      allow read: if isAuthenticated();
+      allow write: if isStaff();
+    }
+
+    // Procurement Records
+    match /procurement_records/{recordId} {
+      allow read: if isAuthenticated() && (resource.data.farmerId == request.auth.uid || isStaff());
+      allow write: if isStaff();
+    }
+
+    // Receipts
+    match /receipts/{receiptId} {
+      allow read: if isAuthenticated() && (resource.data.farmerId == request.auth.uid || isStaff());
+      allow write: if isStaff();
+    }
+
+    // Feedback & Helpline
+    match /feedback/{feedbackId} {
+      allow create: if isAuthenticated();
+      allow read, update: if isAdmin();
+    }
+
+    // Audit Logs
+    match /audit_logs/{logId} {
+      allow read, write: if isAdmin();
+    }
+  }
+}

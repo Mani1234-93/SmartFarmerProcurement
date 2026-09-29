@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">स्मार्ट किसान खरीदी परनाली</string>
+    <string name="app_tagline">बुक करव • लाइन म लगव • तौल करवाव • ट्रैक करव • पईसा पाव</string>
+
+    <!-- Language Selection -->
+    <string name="select_language">अपन भाखा चुनव</string>
+    <string name="language_en">English</string>
+    <string name="language_hi">हिंदी</string>
+    <string name="language_hne">छत्तीसगढ़ी</string>
+    <string name="continue_btn">आगू बढ़व</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_1_title">अपन धान/फसल के टोकन पहिली ले बुक करव</string>
+    <string name="onboarding_1_desc">घर बैठे अपन नजदीकी समिति, फसल अउ समय चुनव, केंद्र म बेवजह लाइन लगे के जरूरत नइ हे।</string>
+    <string name="onboarding_2_title">लाइव टोकन अउ लाइन के स्थिति देखव</string>
+    <string name="onboarding_2_desc">कतिक किसान आगू म हे अउ कतेक बेर लगही, सब मोबाइल म देखव। जब नंबर आही तब जावव।</string>
+    <string name="onboarding_3_title">तौल अउ खाता म पईसा जमा के जानकारी</string>
+    <string name="onboarding_3_desc">धान के तौल, ग्रेडिंग अउ पईसा बैंक म अए के जानकारी तुरते पावत रहव।</string>
+    <string name="get_started">सुरु करव</string>
+    <string name="skip">छोड़व</string>
+    <string name="next">आगू</string>
+
+    <!-- Auth -->
+    <string name="login_title">गाँव के किसान भाई मन के सुवागत हे</string>
+    <string name="login_subtitle">टोकन अउ धान खरीदी बर लॉगिन करव</string>
+    <string name="mobile_number">मोबाइल नंबर</string>
+    <string name="enter_mobile">१० अंक के मोबाइल नंबर लिखव</string>
+    <string name="password_pin">पासवर्ड / ४-अंक के पिन</string>
+    <string name="login">लॉगिन करव</string>
+    <string name="farmer_register">नवा किसान? इहाँ नाव दर्ज करव</string>
+    <string name="staff_login">समिति कर्मचारी / अधिकारी लॉगिन</string>
+    <string name="registration_title">किसान पंजीयन</string>
+    <string name="full_name">पूरा नाव</string>
+    <string name="farmer_id">किसान कोड / ऋण पुस्तिका नं.</string>
+    <string name="village">गाँव</string>
+    <string name="district">जिला</string>
+    <string name="state">राज</string>
+    <string name="preferred_center">पसंद के खरीदी केंद्र/समिति</string>
+    <string name="bank_account">बैंक खाता नं.</string>
+    <string name="ifsc_code">IFSC कोड</string>
+    <string name="register_btn">पंजीयन जमा करव</string>
+    <string name="logout">बाहर निकलव (लॉगआउट)</string>
+
+    <!-- Dashboard -->
+    <string name="welcome">जोहार</string>
+    <string name="quick_actions">झटपट काम</string>
+    <string name="book_slot">टोकन बुक करव</string>
+    <string name="my_tokens">मोर टोकन</string>
+    <string name="queue_status">लाइन के हाल</string>
+    <string name="procurement_status">खरीदी के हाल</string>
+    <string name="payment_status">पईसा के हाल</string>
+    <string name="schedule">तारीख अउ समय</string>
+    <string name="today_slot">आज के टोकन</string>
+    <string name="no_active_slot">आज बर कोनो टोकन नइये</string>
+    <string name="book_now">अभी टोकन काटव</string>
+
+    <!-- Queue -->
+    <string name="your_token">तुँहर टोकन</string>
+    <string name="now_serving">अभी चलत हे टोकन</string>
+    <string name="people_ahead">तुँहर आगू किसान</string>
+    <string name="estimated_wait">अंदाजा बेर</string>
+    <string name="minutes">मिनट</string>
+    <string name="queue_waiting">लाइन म अगोरत हे</string>
+    <string name="queue_called">काउन्टर म बुलाय गे हे</string>
+    <string name="queue_verification">जाँच चलत हे</string>
+    <string name="queue_procurement">तौल अउ खरीदी चलत हे</string>
+    <string name="queue_completed">खरीदी पूरा होगे</string>
+    <string name="queue_noshow">नइ आईस</string>
+    <string name="queue_cancelled">रद्द होगे</string>
+
+    <!-- Booking -->
+    <string name="select_center">खरीदी केंद्र (समिति) चुनव</string>
+    <string name="select_crop">धान / फसल चुनव</string>
+    <string name="expected_quantity">कतेक क्विंटल हे</string>
+    <string name="select_date">तारीख चुनव</string>
+    <string name="available_slots">खाली समय स्लॉट</string>
+    <string name="confirm_booking">टोकन पक्का करव</string>
+    <string name="booking_success">टोकन पक्का कट गे!</string>
+    <string name="token_generated">टोकन नंबर मिलगे</string>
+    <string name="view_token">टोकन अउ QR देखव</string>
+    <string name="cancel_booking">टोकन रद्द करव</string>
+
+    <!-- Procurement Tracking -->
+    <string name="timeline_booked">टोकन पक्का</string>
+    <string name="timeline_arrived">किसान केंद्र पहुँच गे</string>
+    <string name="timeline_verified">कागज अउ धान जाँच गे</string>
+    <string name="timeline_weighed">काँटा म तौल होगे</string>
+    <string name="timeline_graded">क्वालिटी पास होगे</string>
+    <string name="timeline_completed">खरीदी पूरा होगे</string>
+    <string name="timeline_payment_initiated">पईसा भेजे बर लग गे</string>
+    <string name="timeline_payment_completed">खाता म पईसा आ गे</string>
+
+    <!-- Digital Receipt -->
+    <string name="digital_receipt">खरीदी के पक्का रसीद</string>
+    <string name="download_receipt">PDF डाउनलोड करव</string>
+    <string name="share_receipt">व्हाट्सएप म भेजो</string>
+    <string name="total_amount">कुल पईसा</string>
+    <string name="approved_qty">तौले गे मात्रा</string>
+    <string name="rate_per_quintal">भाव / क्विंटल (समर्थन मूल्य)</string>
+    <string name="quality_grade">क्वालिटी</string>
+    <string name="moisture_pct">नमी</string>
+
+    <!-- Staff Actions -->
+    <string name="staff_dashboard">समिति स्टाफ पोर्टल</string>
+    <string name="call_next">आगू वाला किसान ल बुलाओ</string>
+    <string name="scan_qr">किसान के QR स्कैन करव</string>
+    <string name="verify_farmer">किसान जाँच करव</string>
+    <string name="start_procurement">तौल सुरू करव</string>
+    <string name="enter_produce_details">वजन अउ क्वालिटी लिखव</string>
+    <string name="complete_procurement">खरीदी पूरा करव</string>
+    <string name="mark_noshow">नइ आईस लिखव</string>
+
+    <!-- Admin -->
+    <string name="admin_dashboard">प्रशासक डैशबोर्ड</string>
+    <string name="total_farmers">जम्मो पंजीकृत किसान</string>
+    <string name="today_bookings">आज के कुल टोकन</string>
+    <string name="procurement_volume">कुल खरीदी रकम</string>
+    <string name="manage_centers">समिति केंद्र प्रबंधन</string>
+    <string name="manage_crops">फसल अउ समर्थन मूल्य</string>
+    <string name="slot_capacity">टोकन क्षमता सेटिंग</string>
+    <string name="user_management">किसान-स्टाफ सूची</string>
+    <string name="reports_analytics">रिपोर्ट अउ बहीखाता</string>
+
+    <!-- General & Errors -->
+    <string name="offline_banner">नेट नइ चलत हे: पुरना जानकारी दिखत हे। नेट आए म जुड़ जाही।</string>
+    <string name="retry">फेर कोसिस करव</string>
+    <string name="error_network">इंटरनेट नइ चल्थय, मोबाइल डाटा देखव।</string>
+    <string name="error_slot_full">ये समे भर गे हे, दूसर समे चुनव।</string>
+    <string name="help_support">मदद अउ किसान हेल्पलाइन</string>
+    <string name="kisan_helpline_number">1800-180-1551 (मुफ्त फोन)</string>
+</resources>

@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">स्मार्ट किसान खरीद प्रणाली</string>
+    <string name="app_tagline">बुक करें • कतार में लगें • तौल कराएं • ट्रैक करें • भुगतान पाएं</string>
+
+    <!-- Language Selection -->
+    <string name="select_language">अपनी भाषा चुनें / Select Your Language</string>
+    <string name="language_en">English (अंग्रेजी)</string>
+    <string name="language_hi">हिंदी (Hindi)</string>
+    <string name="language_hne">छत्तीसगढ़ी (Chhattisgarhi)</string>
+    <string name="continue_btn">आगे बढ़ें</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_1_title">अपनी खरीद स्लॉट पहले ही बुक करें</string>
+    <string name="onboarding_1_desc">घर बैठे अपने नजदीकी उपार्जन केंद्र, फसल और समय का स्लॉट चुनें, बिना लंबी कतार में खड़े रहे।</string>
+    <string name="onboarding_2_title">लाइव कतार और टोकन ट्रैक करें</string>
+    <string name="onboarding_2_desc">कतार में अपना नंबर, आगे के किसान और अनुमानित समय देखें। जब आपका नंबर आए, तभी केंद्र पहुंचें।</string>
+    <string name="onboarding_3_title">उपार्जन और बैंक भुगतान ट्रैक करें</string>
+    <string name="onboarding_3_desc">वजन, गुणवत्ता और सीधे बैंक खाते में भुगतान की स्थिति मोबाइल पर तुरंत देखें।</string>
+    <string name="get_started">शुरू करें</string>
+    <string name="skip">छोड़ें</string>
+    <string name="next">अगला</string>
+
+    <!-- Auth -->
+    <string name="login_title">वापसी पर स्वागत है</string>
+    <string name="login_subtitle">स्लॉट और फसल उपार्जन प्रबंधित करने के लिए लॉगिन करें</string>
+    <string name="mobile_number">मोबाइल नंबर</string>
+    <string name="enter_mobile">10 अंकों का मोबाइल नंबर दर्ज करें</string>
+    <string name="password_pin">पासवर्ड / 4-अंकीय पिन</string>
+    <string name="login">लॉगिन करें</string>
+    <string name="farmer_register">नए किसान? यहाँ पंजीकरण करें</string>
+    <string name="staff_login">उपार्जन केंद्र कर्मी / व्यवस्थापक लॉगिन</string>
+    <string name="registration_title">किसान पंजीकरण</string>
+    <string name="full_name">पूरा नाम</string>
+    <string name="farmer_id">किसान कोड / किसान क्रेडिट कार्ड नं.</string>
+    <string name="village">गांव</string>
+    <string name="district">जिला</string>
+    <string name="state">राज्य</string>
+    <string name="preferred_center">पसंदीदा उपार्जन केंद्र</string>
+    <string name="bank_account">बैंक खाता संख्या (वैकल्पिक)</string>
+    <string name="ifsc_code">IFSC कोड</string>
+    <string name="register_btn">किसान के रूप में पंजीकृत हों</string>
+    <string name="logout">लॉगआउट</string>
+
+    <!-- Dashboard -->
+    <string name="welcome">नमस्ते</string>
+    <string name="quick_actions">त्वरित कार्य</string>
+    <string name="book_slot">स्लॉट बुक करें</string>
+    <string name="my_tokens">मेरे टोकन</string>
+    <string name="queue_status">कतार की स्थिति</string>
+    <string name="procurement_status">उपार्जन स्थिति</string>
+    <string name="payment_status">भुगतान स्थिति</string>
+    <string name="schedule">समय-सारणी</string>
+    <string name="today_slot">आज का स्लॉट</string>
+    <string name="no_active_slot">आज के लिए कोई सक्रिय स्लॉट नहीं है</string>
+    <string name="book_now">अभी बुक करें</string>
+
+    <!-- Queue -->
+    <string name="your_token">आपका टोकन</string>
+    <string name="now_serving">वर्तमान टोकन (सेवा में)</string>
+    <string name="people_ahead">आपसे आगे किसान</string>
+    <string name="estimated_wait">अनुमानित प्रतीक्षा</string>
+    <string name="minutes">मिनट</string>
+    <string name="queue_waiting">कतार में प्रतीक्षारत</string>
+    <string name="queue_called">काउंटर पर बुलाया गया</string>
+    <string name="queue_verification">सत्यापन जारी</string>
+    <string name="queue_procurement">तौल एवं खरीद प्रगति पर</string>
+    <string name="queue_completed">सफलतापूर्वक पूर्ण</string>
+    <string name="queue_noshow">अनुपस्थित दर्ज</string>
+    <string name="queue_cancelled">रद्द</string>
+
+    <!-- Booking -->
+    <string name="select_center">उपार्जन केंद्र चुनें</string>
+    <string name="select_crop">फसल / उपज चुनें</string>
+    <string name="expected_quantity">अनुमानित मात्रा (क्विंटल में)</string>
+    <string name="select_date">दिनांक चुनें</string>
+    <string name="available_slots">उपलब्ध समय स्लॉट</string>
+    <string name="confirm_booking">बुकिंग पक्की करें</string>
+    <string name="booking_success">स्लॉट बुकिंग सफलतापूर्वक हो गई!</string>
+    <string name="token_generated">टोकन जारी किया गया</string>
+    <string name="view_token">टोकन एवं QR कोड देखें</string>
+    <string name="cancel_booking">बुकिंग रद्द करें</string>
+
+    <!-- Procurement Tracking -->
+    <string name="timeline_booked">बुकिंग स्वीकृत</string>
+    <string name="timeline_arrived">किसान केंद्र पर पहुंचे</string>
+    <string name="timeline_verified">पहचान एवं फसल सत्यापित</string>
+    <string name="timeline_weighed">फसल की तौल पूरी</string>
+    <string name="timeline_graded">गुणवत्ता ग्रेडिंग स्वीकृत</string>
+    <string name="timeline_completed">उपार्जन पूर्ण हुआ</string>
+    <string name="timeline_payment_initiated">भुगतान प्रक्रिया शुरू</string>
+    <string name="timeline_payment_completed">खाते में राशि जमा</string>
+
+    <!-- Digital Receipt -->
+    <string name="digital_receipt">डिजिटल खरीद रसीद</string>
+    <string name="download_receipt">PDF डाउनलोड करें</string>
+    <string name="share_receipt">व्हाट्सएप पर साझा करें</string>
+    <string name="total_amount">कुल राशि</string>
+    <string name="approved_qty">स्वीकृत मात्रा</string>
+    <string name="rate_per_quintal">दर / क्विंटल (समर्थन मूल्य)</string>
+    <string name="quality_grade">गुणवत्ता श्रेणी</string>
+    <string name="moisture_pct">नमी का प्रतिशत</string>
+
+    <!-- Staff Actions -->
+    <string name="staff_dashboard">स्टाफ पोर्टल</string>
+    <string name="call_next">अगले किसान को बुलाएं</string>
+    <string name="scan_qr">किसान का QR स्कैन करें</string>
+    <string name="verify_farmer">किसान सत्यापित करें</string>
+    <string name="start_procurement">खरीद शुरू करें</string>
+    <string name="enter_produce_details">वजन एवं गुणवत्ता दर्ज करें</string>
+    <string name="complete_procurement">खरीद पूर्ण करें</string>
+    <string name="mark_noshow">अनुपस्थित चिह्नित करें</string>
+
+    <!-- Admin -->
+    <string name="admin_dashboard">प्रशासक डैशबोर्ड</string>
+    <string name="total_farmers">कुल पंजीकृत किसान</string>
+    <string name="today_bookings">आज की कुल बुकिंग</string>
+    <string name="procurement_volume">कुल उपार्जन राशि</string>
+    <string name="manage_centers">उपार्जन केंद्र प्रबंधन</string>
+    <string name="manage_crops">फसल एवं समर्थन मूल्य (MSP)</string>
+    <string name="slot_capacity">स्लॉट क्षमता प्रबंधन</string>
+    <string name="user_management">उपयोगकर्ता प्रबंधन</string>
+    <string name="reports_analytics">रिपोर्ट एवं विश्लेषण</string>
+
+    <!-- General & Errors -->
+    <string name="offline_banner">ऑफ़लाइन मोड: संचित डेटा दिख रहा है। इंटरनेट आने पर सिंक होगा।</string>
+    <string name="retry">पुनः प्रयास करें</string>
+    <string name="error_network">इंटरनेट कनेक्शन उपलब्ध नहीं है। कृपया जांचें।</string>
+    <string name="error_slot_full">यह स्लॉट पूरा भर चुका है। कृपया दूसरा स्लॉट चुनें।</string>
+    <string name="help_support">सहायता एवं किसान हेल्पलाइन</string>
+    <string name="kisan_helpline_number">1800-180-1551 (टोल-फ्री)</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Agriculture Theme Colors (Green & Earth Tones) -->
+    <color name="primary_green">#2E7D32</color>
+    <color name="primary_green_dark">#1B5E20</color>
+    <color name="primary_green_light">#4CAF50</color>
+    <color name="accent_gold">#F9A825</color>
+    <color name="earth_brown">#5D4037</color>
+    <color name="background_light">#F8FAF8</color>
+    <color name="surface_card">#FFFFFF</color>
+    <color name="text_primary">#1C2826</color>
+    <color name="text_secondary">#5C6B64</color>
+    <color name="status_waiting">#1976D2</color>
+    <color name="status_in_progress">#F57C00</color>
+    <color name="status_completed">#388E3C</color>
+    <color name="status_alert">#D32F2F</color>
+</resources>

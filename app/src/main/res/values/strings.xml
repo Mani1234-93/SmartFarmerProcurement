@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">Smart Farmer Procurement</string>
+    <string name="app_tagline">Book • Queue • Procure • Track • Get Paid</string>
+
+    <!-- Language Selection -->
+    <string name="select_language">Select Your Language / अपनी भाषा चुनें</string>
+    <string name="language_en">English</string>
+    <string name="language_hi">हिंदी (Hindi)</string>
+    <string name="language_hne">छत्तीसगढ़ी (Chhattisgarhi)</string>
+    <string name="continue_btn">Continue</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_1_title">Book Your Procurement Slot</string>
+    <string name="onboarding_1_desc">Choose your nearby procurement centre, crop, and time slot from the comfort of your home without physical waiting.</string>
+    <string name="onboarding_2_title">Track Your Queue in Real Time</string>
+    <string name="onboarding_2_desc">Get live token updates, see how many farmers are ahead, and arrive right when your turn is called.</string>
+    <string name="onboarding_3_title">Track Procurement &amp; Payment</string>
+    <string name="onboarding_3_desc">View digital weighing, grading details, and direct bank payment status instantly on your mobile.</string>
+    <string name="get_started">Get Started</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+
+    <!-- Auth -->
+    <string name="login_title">Welcome Back</string>
+    <string name="login_subtitle">Login to manage your slots and crop procurement</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="enter_mobile">Enter 10-digit mobile number</string>
+    <string name="password_pin">Password / 4-Digit PIN</string>
+    <string name="login">Login</string>
+    <string name="farmer_register">New Farmer? Register Here</string>
+    <string name="staff_login">Procurement Staff / Admin Login</string>
+    <string name="registration_title">Farmer Registration</string>
+    <string name="full_name">Full Name</string>
+    <string name="farmer_id">Farmer ID / Kisan Card No.</string>
+    <string name="village">Village</string>
+    <string name="district">District</string>
+    <string name="state">State</string>
+    <string name="preferred_center">Preferred Procurement Centre</string>
+    <string name="bank_account">Bank Account Number (Optional)</string>
+    <string name="ifsc_code">IFSC Code</string>
+    <string name="register_btn">Register as Farmer</string>
+    <string name="logout">Logout</string>
+
+    <!-- Dashboard -->
+    <string name="welcome">Welcome</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="book_slot">Book Slot</string>
+    <string name="my_tokens">My Tokens</string>
+    <string name="queue_status">Queue Status</string>
+    <string name="procurement_status">Procurement Status</string>
+    <string name="payment_status">Payment Status</string>
+    <string name="schedule">Schedules</string>
+    <string name="today_slot">Today\'s Slot</string>
+    <string name="no_active_slot">No active slot booked for today</string>
+    <string name="book_now">Book Now</string>
+
+    <!-- Queue -->
+    <string name="your_token">YOUR TOKEN</string>
+    <string name="now_serving">NOW SERVING</string>
+    <string name="people_ahead">PEOPLE AHEAD</string>
+    <string name="estimated_wait">ESTIMATED WAIT</string>
+    <string name="minutes">Minutes</string>
+    <string name="queue_waiting">Waiting in Queue</string>
+    <string name="queue_called">Called to Counter</string>
+    <string name="queue_verification">Under Verification</string>
+    <string name="queue_procurement">Procurement in Progress</string>
+    <string name="queue_completed">Completed</string>
+    <string name="queue_noshow">Marked No-Show</string>
+    <string name="queue_cancelled">Cancelled</string>
+
+    <!-- Booking -->
+    <string name="select_center">Select Procurement Centre</string>
+    <string name="select_crop">Select Crop / Produce</string>
+    <string name="expected_quantity">Expected Quantity (Quintals)</string>
+    <string name="select_date">Select Date</string>
+    <string name="available_slots">Available Slots</string>
+    <string name="confirm_booking">Confirm Booking</string>
+    <string name="booking_success">Booking Confirmed Successfully!</string>
+    <string name="token_generated">Token Generated</string>
+    <string name="view_token">View Token &amp; QR</string>
+    <string name="cancel_booking">Cancel Booking</string>
+
+    <!-- Procurement Tracking -->
+    <string name="timeline_booked">Booking Confirmed</string>
+    <string name="timeline_arrived">Farmer Arrived at Centre</string>
+    <string name="timeline_verified">Identity &amp; Produce Verified</string>
+    <string name="timeline_weighed">Produce Weighed</string>
+    <string name="timeline_graded">Quality Checked &amp; Graded</string>
+    <string name="timeline_completed">Procurement Completed</string>
+    <string name="timeline_payment_initiated">Payment Initiated</string>
+    <string name="timeline_payment_completed">Payment Credited</string>
+
+    <!-- Digital Receipt -->
+    <string name="digital_receipt">Digital Procurement Receipt</string>
+    <string name="download_receipt">Download PDF</string>
+    <string name="share_receipt">Share via WhatsApp</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="approved_qty">Approved Quantity</string>
+    <string name="rate_per_quintal">Rate / Quintal (MSP)</string>
+    <string name="quality_grade">Quality Grade</string>
+    <string name="moisture_pct">Moisture Level</string>
+
+    <!-- Staff Actions -->
+    <string name="staff_dashboard">Staff Portal</string>
+    <string name="call_next">Call Next Farmer</string>
+    <string name="scan_qr">Scan Farmer QR</string>
+    <string name="verify_farmer">Verify Farmer</string>
+    <string name="start_procurement">Start Procurement</string>
+    <string name="enter_produce_details">Enter Weight &amp; Quality</string>
+    <string name="complete_procurement">Complete Procurement</string>
+    <string name="mark_noshow">Mark No-Show</string>
+
+    <!-- Admin -->
+    <string name="admin_dashboard">Admin Oversight</string>
+    <string name="total_farmers">Total Farmers</string>
+    <string name="today_bookings">Today\'s Bookings</string>
+    <string name="procurement_volume">Total Procurement</string>
+    <string name="manage_centers">Manage Centres</string>
+    <string name="manage_crops">Manage Crops &amp; MSP</string>
+    <string name="slot_capacity">Slot Capacity Config</string>
+    <string name="user_management">User Management</string>
+    <string name="reports_analytics">Reports &amp; Analytics</string>
+
+    <!-- General & Errors -->
+    <string name="offline_banner">Offline Mode: Showing cached data. Actions will sync once connected.</string>
+    <string name="retry">Retry</string>
+    <string name="error_network">Internet connection unavailable. Please try again.</string>
+    <string name="error_slot_full">This slot is full. Please choose another slot.</string>
+    <string name="help_support">Help &amp; Kisan Helpline</string>
+    <string name="kisan_helpline_number">1800-180-1551 (Toll-Free)</string>
+</resources>
